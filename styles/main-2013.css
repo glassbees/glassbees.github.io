@@ -53,6 +53,7 @@ a {
 .intro figure {
 	float: right;
 	margin: 0 0 20px 20px; 
+	position: relative;
 	z-index: 2;
 }
 
