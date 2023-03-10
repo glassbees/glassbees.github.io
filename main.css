@@ -478,13 +478,19 @@ a.promo-box-link:visited {
   height: auto;
 }
 
+.upod-homepage-img {
+  width: 100%;
+  height: 312px;
+  object-fit: cover;
+  object-position: 0 60%;
+}
+
 @media screen and (min-width: 400px) {
   .promo-box {
     width: calc(100% - 2em);
     margin: 0 1em;
   }
 }
-/* btw 800 and 950, timeline border is cut off */
 
 @media screen and (min-width: 500px) {
   .old-squares-flex-container > img {
@@ -501,6 +507,9 @@ a.promo-box-link:visited {
   }
   .picline {
     justify-content: space-between;
+  .upod-homepage-img {
+    object-position: 0 90%; 
+  }
 }
 
 @media screen and (min-width: 800px) {
