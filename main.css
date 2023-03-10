@@ -104,6 +104,20 @@ body {
   height: auto;
 }
 
+.home .splash .header-image {
+  height: 200px;
+  object-fit: cover;
+  width: 500px;
+  object-position: 50% 100%;
+}
+
+.history .splash .header-image {
+  height: 200px;
+  object-fit: cover;
+  width: 500px;
+  object-position: 32% 100%;
+}
+
 .splash-caption {
   display: block;
   line-height: 1.1;
@@ -167,7 +181,7 @@ h3 {
   padding: 0;
 }
 
-.timeline .thing:before {
+.history .thing:before {
   content: "";
   border-top: 1px solid #999;
   height: 1px;
@@ -499,6 +513,18 @@ a.promo-box-link:visited {
   .timeline-flex, .bandcamp-flex {
     flex-wrap: nowrap;
   }
+  .home .splash .header-image {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    object-position: 100% 100%;
+  }
+  .history .splash .header-image {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    object-position: 100% 100%;
+  }
 }
 
 @media screen and (min-width: 735px) {
@@ -523,7 +549,7 @@ a.promo-box-link:visited {
     left: 1em;
     font-size: 14px;
   }
-  .timeline .scroll-wrapper {
+  .history .scroll-wrapper {
     top: 34vw; 
     padding-top: 2em;
   }
@@ -537,7 +563,7 @@ a.promo-box-link:visited {
   .thing p, .thing h3  {
     font-size: 17px;
   }
-  .timeline .thing:before {
+  .history .thing:before {
     width: 0.9em;
   }
   .thing p.date:before {
@@ -575,7 +601,7 @@ a.promo-box-link:visited {
   .thing {
       padding: 0 0 6em 4em;
   }
-  .timeline .thing:before {
+  .history .thing:before {
     width: 3em;
   }
 }
