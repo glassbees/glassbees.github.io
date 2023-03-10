@@ -180,6 +180,7 @@ figure.timed-audio {
 figure.timed-audio figcaption {
 	position: relative;
 	height: 105px;
+	overflow: hidden;
 }
 
 figure.timed-audio figcaption div {
@@ -223,7 +224,12 @@ figure.timed-audio figcaption div:nth-child(5) {
 }
 
 figure.timed-audio figcaption div:nth-child(6) {
-	left: 947px;
+	right: 53px;
+	left: inherit;
+	text-align: right;
+	border-left: none;
+	border-right: 1px solid #999;
+	padding: 18px 10px 0 0;
 }
 
 .shell, article.main {
@@ -231,6 +237,7 @@ figure.timed-audio figcaption div:nth-child(6) {
 	margin: 1em auto;
 	position: relative;
 	clear: both;
+	padding: 0 1em;
 }
 
 article.main section.flow {
@@ -284,7 +291,7 @@ time {
 }
 
 footer.shell {
-	padding: 3em 0 2em 0;
+	padding: 3em 1em 2em 1em;
 	font-family: courier, monospace, serif;
 	font-size: 14px;
 	line-height: 1.2;
