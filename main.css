@@ -372,10 +372,16 @@ audio, video {
   transition: transform .2s; /* Animation */
 }
 
-.promo-box h2, .promo-box p {
+.promo-box h2 {
   text-align: left;
   line-height: 1.2;
 }
+
+ .promo-box p {
+  text-align: left;
+  line-height: 1.3;
+}
+
 
 .border-up {
   box-sizing: border-box;
