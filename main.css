@@ -278,7 +278,7 @@ audio, video {
   margin: 0;
   padding: 0;
   width: 31%;
-  height: auto;
+  height: auto !important;
   flex-grow: 1;
 }
 
@@ -515,6 +515,7 @@ a.promo-box-link:visited {
 @media screen and (min-width: 500px) {
   .old-squares-flex-container > img {
     width: 20%;
+    height: auto !important;
   }
   .timeline-flex, .bandcamp-flex {
     flex-wrap: nowrap;
@@ -536,6 +537,7 @@ a.promo-box-link:visited {
 @media screen and (min-width: 735px) {
   .old-squares-flex-container > img {
     width: 15%;
+    height: auto !important;
   }
   .picline {
     justify-content: space-between;
